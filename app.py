@@ -5,15 +5,11 @@ from datetime import timedelta
 
 app = Flask(__name__)
 
-
-
 app.secret_key = ''
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_FILE_DIR'] = '/sessions'
 app.config['SESSION_PERMANENT'] = True
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=90)
-
-
 
 @app.route('/')
 def home():
