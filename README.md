@@ -22,7 +22,7 @@
 
 2. Generate a new Flask project using **flaskgen**:  
    ```bash
-   cookiecutter https://github.com/yourusername/flaskgen
+   cookiecutter https://github.com/davidplajner/flaskgen
    ```  
 
 3. Follow the prompts and start coding! 🎉  
