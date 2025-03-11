@@ -5,7 +5,7 @@ from datetime import timedelta
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
-app.secret_key = ''
+app.secret_key = 'your-secret-key'
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_FILE_DIR'] = '/sessions'
 app.config['SESSION_PERMANENT'] = True
