@@ -3,7 +3,7 @@ from flask_session import Session
 import sqlite3
 from datetime import timedelta
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder='templates', static_folder='static')
 
 app.secret_key = ''
 app.config['SESSION_TYPE'] = 'filesystem'
