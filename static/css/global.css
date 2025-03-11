@@ -1,0 +1,24 @@
+body {
+    height: 100dvh;
+    margin: 0;
+    gap: 1rem;
+    background: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+  }
+  
+  h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 1rem;
+  }
+
+  p{
+    font-family: 'Fira code';
+    font-size: 14px;
+    font-weight: 400;
+  }

@@ -1,0 +1,80 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  background: none;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default quotes for blockquote and q */
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+}
+
+/* Reset headings */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Form elements reset */
+input, textarea, select, button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Specific button and select reset */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+select {
+  cursor: pointer;
+}
+
+/* Remove fieldset default styling */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optionally remove focus outlines (use with caution for accessibility) */
+:focus {
+  outline: none;
+}
